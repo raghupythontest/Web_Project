@@ -1,0 +1,148 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: "Montserrat";
+}
+h1{
+    font-weight: 900;
+    font-size: 2.8rem;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title{
+    color: #fff;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image{
+    width: 52%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 50px;
+}
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.testimonial-img{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.press-logo{
+    width: 13%;
+    padding-bottom:5%;
+    margin: 0 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Sectiom */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+@media (max-width:990px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 20%;
+    color: #fff;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 20% 3%;
+}
+
+#footer i{
+    padding-left: 1%;
+}
